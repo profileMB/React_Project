@@ -1,0 +1,25 @@
+.banner_style {
+    color: black;
+	display: flex;
+	align-items: center;
+	min-width: 400px;
+	margin-left: 430px;
+}
+
+.logo {
+	height: 45px;
+	width: 45px;
+	margin-top: 22px;
+}
+
+.title {
+	font-size: 50px;
+	margin-bottom: 15px;
+	margin-top: 40px;
+}
+
+.dot {
+	 color : #31b472;
+	 font-size: 50px;
+	 font-weight: bold;
+}
