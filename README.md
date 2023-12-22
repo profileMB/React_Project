@@ -3,7 +3,7 @@
 Demo frontend e-commerce website for selling plants built with Create React App.
 
 ## Visite the site
-See the final result of the website by clicking this link : 
+See the final result of the website by clicking this link : https://plantes-website-2023.onrender.com .
 
 ## Visual overview
 

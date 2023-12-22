@@ -1,7 +1,15 @@
 .layout_inner {
 	display: flex;
 	flex-direction: row;
-	min-width: 1150px;
-	border-top: solid 3px #31b472;
+	border-top: solid 3px #31b472; 
 	border-bottom: solid 3px #31b472;
+}
+
+
+@media only screen and (max-width:480px) {
+	.layout_inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	  }
 }

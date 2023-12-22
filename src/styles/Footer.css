@@ -1,13 +1,11 @@
-.footer_style{
+.footer_style {
 	display: flex;
 	justify-content: center;
-	max-height: 155px;
-	min-width: 600px;
-	margin: 0 10px;
-
-}
-
-.footer_div{
+	max-height: 9.6875rem;
+	margin: 0 0.625rem;
+  }
+  
+  .footer_div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -15,61 +13,82 @@
 	background-color: white;
 	border: 3px solid #31b472;
 	border-radius: 30px;
-	min-width: 600px;
-	height: 100px;
-	margin-top: 25px;
-	margin-bottom: 15px;
-	padding-bottom: 10px;
-}
-
-/*--------*/
-
-.footer_intro{
+	min-width: 37.5rem;
+	height: 6.25rem;
+	margin-top: 1.5625rem;
+	margin-bottom: 0.9375rem;
+	padding-bottom: 0.625rem;
+  }
+  
+  .footer_intro {
 	display: flex;
-	margin-bottom: -10px;
-}
-
-.footer_intro_text{
-	font-size: 23px;
+	margin-bottom: -0.625rem;
+  }
+  
+  .footer_intro_text {
+	font-size: 1.4375rem;
 	font-weight: bold;
-}
-
-.footer_logo{
-	height: 25px;
-	width: 25px;
-	margin-top: 23px;
-	margin-left: 5px;
-}
-
-/*--------*/
-
-.footer_email{
+	white-space: nowrap;
+  }
+  
+  .footer_logo {
+	height: 1.5625rem;
+	width: 1.5625rem;
+	margin-top: 1.4375rem;
+	margin-left: 0.3125rem;
+  }
+  
+  .footer_email {
 	display: flex;
 	align-items: center;
-	font-size: 16px;
-}
-
-.email_input{
+	font-size: 1rem;
+	white-space: nowrap;
+  }
+  
+  .email_input {
 	background-color: white;
 	font-family: inherit;
-	font-size: 16px;
+	font-size: 1rem;
 	color: black;
-	border-radius: 5px ;
+	border-radius: 0.3125rem;
 	border: 3px solid #31b472;
-	padding : 3px 10px;
-	margin-left: 10px;
+	padding: 0.1875rem 0.625rem;
+	margin-left: 0.625rem;
 	outline: none;
-	cursor : text;
-}
-
-.email_button {
+	cursor: text;
+  }
+  
+  .email_button {
 	background-color: #31b472;
 	font: inherit;
-	font-size: 14px;
+	font-size: 0.875rem;
 	color: white;
-	border-radius: 5px ;
+	border-radius: 0.3125rem;
 	border: 3px solid #31b472;
-	padding : 4px 15px;
-	margin-left: 15px ;
+	padding: 0.25rem 0.9375rem;
+	margin-left: 0.9375rem;
 	cursor: pointer;
-}
+  }
+  
+
+  @media only screen and (max-width:480px) {
+
+	.footer_div {
+		min-width:0;
+		border:none;
+	}
+
+	.footer_intro_text {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	
+	.email_input {
+		width :55px;
+    }
+
+	.footer_logo{
+		display: none
+	}
+
+  }
