@@ -2,43 +2,56 @@
 	color: black;
 	display: flex;
 	justify-content: center;
-	/*margin-left: 26.875rem;*/
-  }
+}
   
-  .logo {
+.logo {
 	height: 2.8125rem;
 	width: 2.8125rem;
 	margin-top: 3rem;
-  }
+}
   
-  .title {
+.title {
 	font-size: 3.125rem;
 	margin-bottom: 0.9375rem;
 	margin-top: 2.5rem;
-  }
+}
   
-  .dot {
+.dot {
 	color: #31b472;
 	font-size: 3.125rem;
 	font-weight: bold;
-  }
+}
 
 
-  @media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
 
 	.banner_style {
-		color: black;
-		display: flex;
 		align-items: center;
 	}
 	
 	.title {
-		font-size: 3.125rem;
 		margin-bottom: 1.5rem;
-		margin-top: 2.5rem;
 	}
 
 	.logo {
+		margin-top: 0.8rem;
+	}
+	
+}
+
+
+@media only screen and (max-width: 340px) {
+
+	.logo {
+		height: 2rem;
+		width: 2rem;
 		margin-top: 1.1rem;
 	}
+	  
+	.title {
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+		margin-top: 1rem;
+	}
+
 }

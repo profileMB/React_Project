@@ -1,7 +1,6 @@
 .shopping_list {
 	width: 100%;
 	min-width: 390px;
-
 }
   
 .plant_list {
@@ -16,21 +15,28 @@
 	font-family: inherit;
 	font-size: 1rem;
 	font-weight: bolder;
+	background-color: #31b472;
+	color: white;
+	border: none;
+	border-radius: 5px;
 	cursor: pointer;
 	display: block;
 	margin: auto;
 	margin-bottom: 1.875rem;
 	margin-top: 0;
-	background-color: #31b472;
-	color: white;
-	border-radius: 5px;
 	padding: 0.4375rem 0.9375rem;
-	border: none;
 }
-  
 
-@media only screen and (max-width:480px) {
+.cart_add_button:active {
+	color: #31b472;
+	background-color: white;
+}
+
+
+@media only screen and (max-width: 560px) {
+
 	.shopping_list {
 		min-width: 0;
 	}
+
 }

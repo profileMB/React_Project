@@ -16,6 +16,7 @@ See the final result of the website by clicking this link : https://plantes-webs
 - Toggle for opening/closing the cart (to hide or reveal).
 - Capturing the customer's email address (intended for storage in a database - potential future development track).
 - Basic verification of the email address (must include an @).
+- Responsive design.
 
 ## Technologies and languages
 - React (Create React App)

@@ -31,7 +31,7 @@ function App() {
  
 
   return (
-    <div>
+    <div className='global_layout'>
       <Banner />
       <div className='layout_inner'>
         <Cart cart={cart} setCart={setCart} /> 

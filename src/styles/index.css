@@ -4,18 +4,18 @@ body {
   font-size: 19px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
+  
+  :root {
+    font-size: 14px;
+    min-width: 310px;
+  } 
 
-  html {
-      font-size: 14px;
-    } 
-  }
+}

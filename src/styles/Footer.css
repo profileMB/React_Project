@@ -3,9 +3,9 @@
 	justify-content: center;
 	max-height: 9.6875rem;
 	margin: 0 0.625rem;
-  }
+}
   
-  .footer_div {
+.footer_div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -18,34 +18,34 @@
 	margin-top: 1.5625rem;
 	margin-bottom: 0.9375rem;
 	padding-bottom: 0.625rem;
-  }
+}
   
-  .footer_intro {
+.footer_intro {
 	display: flex;
 	margin-bottom: -0.625rem;
-  }
+}
   
-  .footer_intro_text {
+.footer_intro_text {
 	font-size: 1.4375rem;
 	font-weight: bold;
 	white-space: nowrap;
-  }
+}
   
-  .footer_logo {
+.footer_logo {
 	height: 1.5625rem;
 	width: 1.5625rem;
 	margin-top: 1.4375rem;
 	margin-left: 0.3125rem;
-  }
+}
   
-  .footer_email {
+.footer_email {
 	display: flex;
 	align-items: center;
 	font-size: 1rem;
 	white-space: nowrap;
-  }
+}
   
-  .email_input {
+.email_input {
 	background-color: white;
 	font-family: inherit;
 	font-size: 1rem;
@@ -56,9 +56,9 @@
 	margin-left: 0.625rem;
 	outline: none;
 	cursor: text;
-  }
+}
   
-  .email_button {
+.email_button {
 	background-color: #31b472;
 	font: inherit;
 	font-size: 0.875rem;
@@ -68,27 +68,80 @@
 	padding: 0.25rem 0.9375rem;
 	margin-left: 0.9375rem;
 	cursor: pointer;
-  }
+}
+
+.email_button:active {
+	background-color: white;
+	color: #31b472;
+	font-weight: bold;
+}
   
 
-  @media only screen and (max-width:480px) {
+@media only screen and (max-width: 560px) {
 
 	.footer_div {
-		min-width:0;
-		border:none;
+		min-width: 0;
+		border: none;
 	}
 
 	.footer_intro_text {
-		font-size: 1.2rem;
-		font-weight: bold;
+		font-size: 1.1rem;
 	}
 	
 	.email_input {
-		width :55px;
+		width: 70px;
+		font-size: 0.9rem;
     }
 
-	.footer_logo{
+	.footer_logo {
 		display: none
 	}
 
-  }
+}
+
+@media only screen and (max-width: 380px) {
+
+	.footer_intro_text {
+		font-size: 1rem;
+	}
+
+	.email_button {
+		font-size: 0.85rem;
+		padding: 0.25rem;
+		margin-left: 0.7rem;
+	}
+
+	.footer_email {
+		font-size: 0.85rem;
+	}
+
+	.email_input {
+		width: 60px;
+		margin-left: 0.4rem;
+    }
+
+}
+
+@media only screen and (max-width: 310px) {
+
+	.footer_intro {
+		margin-bottom: -0.8rem;
+	}
+
+	.footer_email {
+		display: block;
+		font-size : 1rem;
+	}
+	
+	.email_input {
+		width: 80px;
+		margin-left: 0rem;
+    }
+
+	.email_button {
+		font-size: 0.85rem;
+		padding: 0.25rem;
+		margin-left: 0.7rem;
+	}
+
+}
