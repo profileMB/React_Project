@@ -4,30 +4,26 @@
 	flex-direction: column;
 }
 
-.layout_inner{
+.layout_inner {
 	flex: 1;
 }
 
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 862px) {
 
 	.layout_inner {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		border-top: none;
-		border-bottom: solid 3px #31b472;
 	}
 
 }
 
-@media only screen and (min-width: 741px) {
+@media only screen and (min-width: 863px) {
 
 	.layout_inner {
 		display: flex;
 		flex-direction: row;
-		border-top: solid 3px #31b472; 
-		border-bottom: solid 3px #31b472;
 		overflow: auto;
 	}
 	

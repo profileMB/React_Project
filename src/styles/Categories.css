@@ -4,9 +4,14 @@
 	padding-top: 1.875rem; 
 	margin-left: 1.25rem; 
 }
-  
+
+label {
+	font-family: inherit;
+	font-size: 1.3rem; 
+} 
+
 .categories_select {
-	font: inherit;
+	font-family: inherit;
 	font-size: 1rem; 
 	color: black;
 	outline: none;
@@ -16,15 +21,15 @@
 	padding: 0.125rem 0.625rem; 
 	margin-right: 0.9375rem; 
 }
-  
+
 .reset_button {
-	font: inherit;
-	font-size: 0.9375rem; 
+	font-family: inherit;
+	font-size: 1rem; 
 	color: black;
 	background-color: white;
 	border: 3px solid #31b472;
 	border-radius: 5px;
-	padding: 0.25rem 0.9375rem; 
+	padding: 0.17rem 0.9375rem; 
 	cursor: pointer;
 }
 
@@ -35,7 +40,7 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 580px) {
 
 	.categories {
 		margin: 0;
@@ -49,6 +54,23 @@
 
 	.reset_button {
 		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	.categories {
+		display: flex;
+		flex-direction: column;
+	}
+
+	label {
+		margin-bottom: 0.5rem;
+	}
+
+	.categories_select {
+		margin: auto;
 	}
 
 }

@@ -6,16 +6,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  min-width: 310px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 
-@media only screen and (max-width: 1024px) {
-  
+@media only screen and (max-width: 1108px) {
+
   :root {
     font-size: 14px;
-    min-width: 310px;
+  }
+
+}
+
+@media only screen and (min-width: 862px) and (max-width: 980px) {
+
+  :root {
+    font-size: 13px;
   } 
 
 }

@@ -2,7 +2,7 @@
 	width: 100%;
 	min-width: 390px;
 }
-  
+
 .plant_list {
 	display: flex;
 	flex-wrap: wrap;
@@ -10,7 +10,7 @@
 	list-style-type: none;
 	padding: 2rem;
 }
-  
+
 .cart_add_button {
 	font-family: inherit;
 	font-size: 1rem;
@@ -33,10 +33,27 @@
 }
 
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 626px) {
 
 	.shopping_list {
+		font-size: 18px;
 		min-width: 0;
+	}
+
+}
+
+@media only screen and (max-width: 599px) {
+
+	.shopping_list {
+		font-size: 16px;
+	}
+
+}
+
+@media only screen and (max-width: 547px) {
+
+	.shopping_list {
+		font-size: 15px;
 	}
 
 }

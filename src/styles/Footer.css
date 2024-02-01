@@ -2,9 +2,9 @@
 	display: flex;
 	justify-content: center;
 	max-height: 9.6875rem;
-	margin: 0 0.625rem;
+	border-top: solid 3px #31b472;
 }
-  
+
 .footer_div {
 	display: flex;
 	flex-direction: column;
@@ -19,32 +19,32 @@
 	margin-bottom: 0.9375rem;
 	padding-bottom: 0.625rem;
 }
-  
+
 .footer_intro {
 	display: flex;
 	margin-bottom: -0.625rem;
 }
-  
+
 .footer_intro_text {
 	font-size: 1.4375rem;
 	font-weight: bold;
 	white-space: nowrap;
 }
-  
+
 .footer_logo {
 	height: 1.5625rem;
 	width: 1.5625rem;
 	margin-top: 1.4375rem;
 	margin-left: 0.3125rem;
 }
-  
+
 .footer_email {
 	display: flex;
 	align-items: center;
 	font-size: 1rem;
 	white-space: nowrap;
 }
-  
+
 .email_input {
 	background-color: white;
 	font-family: inherit;
@@ -57,10 +57,10 @@
 	outline: none;
 	cursor: text;
 }
-  
+
 .email_button {
 	background-color: #31b472;
-	font: inherit;
+	font-family: inherit;
 	font-size: 0.875rem;
 	color: white;
 	border-radius: 0.3125rem;
@@ -75,7 +75,7 @@
 	color: #31b472;
 	font-weight: bold;
 }
-  
+
 
 @media only screen and (max-width: 560px) {
 
@@ -122,7 +122,7 @@
 
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 320px) {
 
 	.footer_intro {
 		margin-bottom: -0.8rem;
