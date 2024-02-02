@@ -6,9 +6,7 @@ Demo frontend e-commerce website for selling plants built with Create React App.
 See the final result of the website by clicking this link : https://plantes-website-2023.onrender.com .
 
 ## Video presentation
-https://github.com/profileMB/React_Project/assets/131761261/7859216e-41e2-46c7-9e83-7ac59251d691
-
-
+https://github.com/profileMB/React_Project/assets/131761261/ae73cbbc-ce3a-418a-83b1-6d876e7615b0
 
 ## Website functionalities
 - Filtering plants by category.
@@ -34,3 +32,9 @@ Plant data is stored in the PlantList.js file.
 - Ensure that Yarn is installed on your machine (see : https://classic.yarnpkg.com/en/docs/install#windows-stable)
 - Clone this repository to your desktop and run `yarn install` to install all the dependencies.
 - Once the dependencies are installed, you can run `yarn start` to start the application. 
+
+## Complementary content : Mobile Demo
+https://github.com/profileMB/React_Project/assets/131761261/ea557629-6f43-4cdc-b1fa-f97d0bf97515
+
+
+
